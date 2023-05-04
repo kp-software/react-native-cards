@@ -5,3 +5,4 @@ components/routes/_*
 /npm-debug.log
 /package-lock.json
 /yarn.lock
+.idea
