@@ -4,8 +4,8 @@ import {
   View,
   TouchableOpacity,
   TouchableNativeFeedback,
-  ViewPropTypes,
 } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import {
   IS_ANDROID,
   IS_LT_LOLLIPOP,
@@ -26,8 +26,7 @@ const Touchable = ({ onPress, style, children }) => {
         </View>
       </TouchableNativeFeedback>
     );
-  }
-  else {
+  } else {
     return (
       <TouchableOpacity
         onPress={onPress}
