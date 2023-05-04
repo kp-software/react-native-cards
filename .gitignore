@@ -3,3 +3,5 @@ db
 node_modules
 components/routes/_*
 /npm-debug.log
+/package-lock.json
+/yarn.lock
